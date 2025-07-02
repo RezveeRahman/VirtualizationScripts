@@ -1,0 +1,53 @@
+linux_build/arch/x86/boot/
+├── a20.o
+├── bioscall.o
+├── bzImage
+├── cmdline.o
+├── compressed
+│   ├── cmdline.o
+│   ├── cpuflags.o
+│   ├── error.o
+│   ├── head_32.o
+│   ├── kernel_info.o
+│   ├── misc.o
+│   ├── mkpiggy
+│   ├── piggy.o
+│   ├── piggy.S
+│   ├── string.o
+│   ├── vmlinux
+│   ├── vmlinux.bin
+│   ├── vmlinux.bin.xz
+│   └── vmlinux.lds
+├── copy.o
+├── cpucheck.o
+├── cpuflags.o
+├── cpu.o
+├── cpustr.h
+├── early_serial_console.o
+├── edd.o
+├── header.o
+├── main.o
+├── memory.o
+├── mkcpustr
+├── pmjump.o
+├── pm.o
+├── printf.o
+├── regs.o
+├── setup.bin
+├── setup.elf
+├── startup
+│   ├── built-in.a
+│   └── lib.a
+├── string.o
+├── tty.o
+├── version.o
+├── video-bios.o
+├── video-mode.o
+├── video.o
+├── video-vesa.o
+├── video-vga.o
+├── vmlinux.bin
+├── voffset.h
+└── zoffset.h
+
+3 directories, 48 files
